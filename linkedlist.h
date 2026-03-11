@@ -47,7 +47,7 @@ template <typename T>
 void CLinkedList<T> :: Insert(Type &elem, Ref ref){
     Node* nuevo = new Node(elem, ref, m_pHead); //creamos el nodo
     m_pHead = nuevo; // la cabeza apunta al nuevo nodo
-    cout << "Lista: " << nuevo.GetData() << endl;
+    cout << "Lista: " << endl;
 }
 
 #endif
